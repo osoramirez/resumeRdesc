@@ -1,0 +1,161 @@
+---
+title: "Get a entire summary statistic"
+author: "Oscar Ramirez Alan"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# resumeRdesc
+
+The goal of resumeRdesc is to get a entire summary statistic.
+
+You have installed resumeRdesc on your R system, version 3.4.4 or later “https://cran.r-project.org/”. Works better in Rstudio “https://www.rstudio.com”
+
+
+## Installation
+
+You can install the released version of resumeRdesc from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("resumeRdesc"). Not yet available
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("osoramirez/resumeRdesc")
+```
+## Example
+
+Activate the resumeRdesc package:
+
+```{r}
+library(resumeRdesc)
+```
+
+You could requiere “e1071”; “car” and “carData” package
+
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example, fig.width=7, fig.height=5}
+set.seed(12345)
+data<-rnorm(100)
+resume(rnorm(100))
+```
+
+Get a complete summary table, histogram and boxplot of your distribution data.
+
+```{r resume,fig.width=7, fig.height=5}
+resume2data(data)
+```
+
+If you are interested in exploring the distribution of your data using a histogram, use “plothist”.
+
+
+
+```{r histogram, echo = FALSE , fig.width=7, fig.height=5}
+plothist(data)
+```
+
+You can also embed boxplot, for example:
+
+
+```{r fig.width=7, fig.height=5}
+plotbox(data)
+```
+
+
+##Coefficient of variation
+
+A coefficient of variation (cv) is a statistical measure of the dispersion of data points in a data series around the mean.
+
+```{r}
+cv(data)
+```
+
+
+##Geometric mean
+
+The geometric mean is a mean or average, which indicates the central tendency
+
+```{r}
+g_mean(data)
+```
+
+
+##Harmonic mean
+
+The harmonic mean is a very specific type of average. It’s generally used when dealing with averages of units, like speed or other rates and ratios. Its a reciprocals of the numbers in your data set or it is calculated by dividing the number of observations by the reciprocal of each number in the series.
+
+```{r}
+h_mean(data)
+```
+
+
+##Mode
+
+The "Mode" is the value that occurs most often. If no number in the list is repeated.
+
+```{r}
+data2<-c(1,1,1,2,3,4,5,6,7,8,9)
+Mode(data2)
+```
+
+
+##Standard error
+
+Is as a measure of the precision of the sample mean, it is  considered as a measures of spread.
+
+```{r}
+se(data)
+```
+
+
+##Kurtosis
+
+Kurtosis is a measure of whether the data are heavy-tailed or light-tailed relative to a normal distribution.
+
+```{r}
+K(data)
+```
+
+#Skewness 
+
+Skewness is a measure of symmetry, or the lack of symmetry. 
+
+```{r}
+skew(data)
+```
+
+
+
+#summaries for data.frame
+For your data.frame data use this functions.
+
+```{r fig.width=7, fig.height=5}
+data(iris)
+resumendf(Petal.Width ~Species, data = iris)
+```
+
+#Reference
+
+Read more: Harmonic Mean https://www.investopedia.com/terms/h/harmonicaverage.asp#ixzz5Ibmy4Rbq 
+
+
+Read more: Coefficient Of Variation (CV) https://www.investopedia.com/terms/c/coefficientofvariation.asp#ixzz5Ibl3v4Ly 
+
+Read more: Standard error
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1255808/
