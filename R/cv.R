@@ -1,6 +1,6 @@
 #'@title coefficient of variation
 #'
-#'@description Compute the coefficient of variation.
+#'@description Compute the coefficient of variation
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export cv
 #'@keywords cv
