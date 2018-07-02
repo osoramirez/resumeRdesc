@@ -1,18 +1,14 @@
 Package: resumeRdesc
+Title: The Most Complete Summary Statistic Ever
 Version: 1.0
-Type: Package
-Date: 2018-06-19
-Title: The Most Complete Summary Statistic Ever!
-Author: person("Oscar Ramirez Alan", email = <osoramirez@gmail.com> [aut, cre])
-Maintainer: Oscar Ramirez Alan <osoramirez@gmail.com>
+Authors@R: person("Oscar Ramirez Alan",  role=c("aut", "cre"),
+    email = "osoramirez@gmail.com")
 Description: Is very useful if you need to get a complety summary statistic.
-    We can get a plots, and see what it happen with your data. Only work for a vector data
+    We can get a plots, and see what it happen with your data. Only work for a vector data.
+Depends:
+    R (>= 3.0)
 License: GPL (>= 2)
 LazyData: true
-URL: https://github.com/osoramirez/resumeRdesc
-BugReports: https://github.com/osoramirez/resumeRdesc/issues
-RoxygenNote: 6.0.1
-Depends: R (>= 3.0)
 Imports: graphics,
     stats,
     utils
