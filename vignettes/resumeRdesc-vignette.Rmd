@@ -16,6 +16,17 @@ knitr::opts_chunk$set(
 )
 ```
 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-")
+```
+
+```{r, echo = FALSE}
+"R CMD build --no-build-vignettes pkgname" 
+```
+
 # resumeRdesc
 
 The goal of resumeRdesc is to get a entire summary statistic.
