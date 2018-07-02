@@ -3,13 +3,11 @@ Version: 1.0
 Type: Package
 Date: 2018-06-19
 Title: The Most Complete Summary Statistic Ever!
-Author: person("Oscar Ramirez Alan", email = <osoramirez@gmail.com>,
-  role = c("aut", "cre"))
+Author: person("Oscar Ramirez Alan", email = <osoramirez@gmail.com> [aut, cre])
 Maintainer: Oscar Ramirez Alan <osoramirez@gmail.com>
 Description: Is very useful if you need to get a complety summary statistic.
     We can get a plots, and see what it happen with your data. Only work for a vector data
 License: GPL (>= 2)
-Encoding: UTF-8
 LazyData: true
 URL: https://github.com/osoramirez/resumeRdesc
 BugReports: https://github.com/osoramirez/resumeRdesc/issues
