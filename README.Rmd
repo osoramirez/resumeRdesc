@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# resumeRdesc
+
+The goal of resumeR is to get a entire summary statistic.
+You have installed resumeR on your R system, version 3.4.4 or later “https://cran.r-project.org/”. Works better in Rstudio “https://www.rstudio.com”
+
+## Installation
+
+You can install resumeRdesc from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("osoramirez/resumeRdesc")
+```
+
+Get a complete summary table, histogram and boxplot of your distribution data.

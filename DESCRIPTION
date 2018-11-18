@@ -1,10 +1,11 @@
 Package: resumeRdesc
-Title: The Most Complete Summary Statistic Ever!
+Type: Package
+Title: resumeRdesc. The Most Complete Summary Statistic Ever
 Version: 1.0
-Date: 2018-07-01
+Date: 2018-09-09
 Author: Oscar Ramirez-Alan
 Maintainer: Oscar Ramirez-Alan <osoramirez@gmail.com>
-Description: Is very useful if you need to get a complety summary statistic.
+Description: The Most Complete Summary Statistic Ever!. Is very useful if you need to get a complety summary statistic.
     We can get a plots, and see what it happen with your data. Only work for a vector data.
 Depends:
     R (>= 3.0)
@@ -21,4 +22,4 @@ Suggests:
     covr,
     testthat
 VignetteBuilder: knitr
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
