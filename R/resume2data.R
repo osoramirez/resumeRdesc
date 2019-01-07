@@ -10,7 +10,7 @@
 #'@examples
 #'set.seed(12345)
 #'x<-rnorm(25,2,3)
-#'resume(x)
+#'resume2data(x)
 #'
 
 resume2data<-function (x)
