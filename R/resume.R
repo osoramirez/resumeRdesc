@@ -4,7 +4,7 @@
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export resume
 #'
-#'@keywords resume
+#'@keywords resume algo
 #'@return a summary
 #'@import "graphics","stats"
 #'@examples
