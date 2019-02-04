@@ -12,6 +12,10 @@ knitr::opts_chunk$set(
 )
 ```
 
+Follow the general instruction: https://osoramirez.github.io/resumeR_presentacion/
+
+
+
 # resumeRdesc
 
 The goal of resumeR is to get a entire summary statistic.
