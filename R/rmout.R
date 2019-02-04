@@ -4,7 +4,7 @@
 #'@description Remove outlier.
 #'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
-#'@export
+#'@export rmout
 #'@import stats
 #'@return a data set with oultiers
 #'@export
@@ -16,7 +16,7 @@
 #'par(mfrow = c(1, 2))
 #'boxplot(x)
 #'boxplot(y)
-NULL
+
 
 rmout <- function(x, na.rm = TRUE) {
   x <- x[is.finite(x)]
