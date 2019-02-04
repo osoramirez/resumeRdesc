@@ -30,6 +30,7 @@ rmout <- function(x, na.rm = TRUE,...) {
   points(mean(x), pch=20, cex = 1.8)
   boxplot(y,col="#EBEBEB", main="With outlier",  boxwex = .85,
           frame.plot = FALSE, cex=0.9, cex.lab=.9, cex.axis=.9, cex.main=.9,cex.main=.9, ylim = c(min(x),  max(x)))
-
+  points(mean(x), pch=20, cex = 1.8)
+  return(y)
 }
 
