@@ -1,6 +1,7 @@
 #'@title plotbox
 #'
 #'@description get a boxplot, showing the mean in plot
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export plotbox
 #'@keywords plotbox

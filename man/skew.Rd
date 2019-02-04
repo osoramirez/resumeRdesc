@@ -21,4 +21,7 @@ A skewness distribution.
 x<-c(1,1,1,2,3,4,5,6,7,7,7,7,10,10)
 skew(x)
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{skew}

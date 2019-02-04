@@ -1,6 +1,7 @@
 #'@title Geometric mean
 #'
 #'@description get a geometric mean
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export g_mean
 #'@param na.rm Should missing values be removed.

@@ -1,8 +1,8 @@
 Package: resumeRdesc
 Type: Package
 Title: resumeRdesc: The Most Complete Summary Statistic Ever
-Version: 2.0
-Date: 2018-11-19
+Version: 1.1
+Date: 2018-02-03
 Author: Oscar Ramirez-Alan
 Maintainer: Oscar Ramirez-Alan <osoramirez@gmail.com>
 Description: The Most Complete Summary Statistic Ever!. Is very useful if you need to get a completely summary statistic.

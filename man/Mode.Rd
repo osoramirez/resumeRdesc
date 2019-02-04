@@ -22,4 +22,7 @@ x2<-c(1,1,1,1,1,2,3,4,5,6,7,8,9,9,9,9,9)
 Mode(x2)
 
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{Mode}

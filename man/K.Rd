@@ -21,4 +21,7 @@ A skewness distribution,computes the estimator of Pearson's measure of kurtosis.
 x<-c(1,1,1,2,3,4,5,6,7,7,7,7,10,10)
 K(x)
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{kurtosis}

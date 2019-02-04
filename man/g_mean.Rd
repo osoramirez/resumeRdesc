@@ -22,4 +22,7 @@ x<-rnorm(25,2,3)
 g_mean(x)
 
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{g_mean}

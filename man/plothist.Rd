@@ -21,4 +21,7 @@ plothist(x)
 
 
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{plothist}

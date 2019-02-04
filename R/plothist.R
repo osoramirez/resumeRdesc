@@ -1,6 +1,7 @@
 #'@title histogram of data
 #'
 #'@description Get a histogram, showing the mean and median of your data
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export plothist
 #'@keywords plothist

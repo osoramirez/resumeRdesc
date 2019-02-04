@@ -1,6 +1,7 @@
 #'@title A Summary Statitical for Data.frame
 #'
-#'@description The table give a summary statisticss
+#'@description The table give a summary statistics
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param data is your group
 #'@param formula ould be a  a vector, matrix or data.frame
 #'@export resumendf

@@ -1,6 +1,7 @@
 #'@title A kurtosis
 #'
 #'@description A skewness distribution,computes the estimator of Pearson's measure of kurtosis.
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector, matrix or data.frame
 #'@param na.rm Should missing values be removed.
 #'@export K

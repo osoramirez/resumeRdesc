@@ -1,10 +1,11 @@
 #'@title Summary Statitical Data
 #'
 #'@description Get a complete descriptive summary statistics
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export resume
 #'
-#'@keywords resume algo
+#'@keywords resume
 #'@return a summary
 #'@import "graphics","stats"
 #'@examples

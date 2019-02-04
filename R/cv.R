@@ -1,6 +1,7 @@
 #'@title coefficient of variation
 #'
 #'@description Compute the coefficient of variation
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export cv
 #'@keywords cv

@@ -21,4 +21,7 @@ x<-rnorm(25,2,3)
 cv(x)
 
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{cv}

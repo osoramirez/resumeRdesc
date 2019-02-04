@@ -1,11 +1,13 @@
 #'@title A standard error
 #'
+#'@param se
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@description The standard error (SE) of a statistic is the standard deviation of its sampling distribution.
 #'@param x is a numeric value, could be a  a vector or data.frame
-#'@export se
-#'@keywords se
-#'@return a standard error
-#'
+#'@export
+#'@import stats
+#'@return a data a standard error
+#'@export
 #'@examples
 #'x<-rnorm(25,2,3)
 #'se(x)

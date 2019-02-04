@@ -10,7 +10,7 @@ se(x)
 \item{x}{is a numeric value, could be a  a vector or data.frame}
 }
 \value{
-a standard error
+a data a standard error
 }
 \description{
 The standard error (SE) of a statistic is the standard deviation of its sampling distribution.
@@ -20,4 +20,6 @@ x<-rnorm(25,2,3)
 se(x)
 
 }
-\keyword{se}
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}

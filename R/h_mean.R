@@ -1,6 +1,7 @@
 #'@title Harmonic mean
 #'
 #'@description get a Harmonic mean
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@param na.rm is a na.rm
 #'@param zero is any value of cero

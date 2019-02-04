@@ -9,6 +9,8 @@
 Grades obtained from the course of General Biostatistics,courses from Universidad Nacional, Costa Rica.
 }
 \author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+
 Oscar Ramirez Alan \email{osoramirez@gmail.com}
 }
 \keyword{datasets}

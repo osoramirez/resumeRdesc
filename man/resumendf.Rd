@@ -15,11 +15,14 @@ resumendf(formula, data)
 a table summary
 }
 \description{
-The table give a summary statisticss
+The table give a summary statistics
 }
 \examples{
 data(iris)
 resumendf(Petal.Width ~Species, data = iris)
 
+}
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
 }
 \keyword{resumendf}

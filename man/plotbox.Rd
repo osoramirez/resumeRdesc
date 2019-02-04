@@ -15,4 +15,7 @@ get a boxplot, showing the mean in plot
 \examples{
 plotbox(rnorm(14))
 }
+\author{
+Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
+}
 \keyword{plotbox}

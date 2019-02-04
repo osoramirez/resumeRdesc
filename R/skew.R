@@ -1,6 +1,7 @@
 #'@title A skewness
 #'
 #'@description A skewness distribution.
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export skew
 #'@param na.rm Should missing values be removed.

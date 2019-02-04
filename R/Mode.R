@@ -1,6 +1,7 @@
 #'@title Mode
 #'
 #'@description get a Mode
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@return Mode
 #'@export Mode

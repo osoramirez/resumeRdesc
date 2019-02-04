@@ -1,6 +1,7 @@
 #'@title Summary Statitical for your Data
 #'
 #'@description The most complete table descriptive in summary statistics
+#'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
 #'@export resume2data
 #'
