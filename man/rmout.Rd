@@ -4,27 +4,26 @@
 \alias{rmout}
 \title{Remove outlier}
 \usage{
-rmout(x, na.rm = TRUE)
+rmout(x, na.rm = TRUE, ...)
 }
 \arguments{
 \item{x}{is a numeric value, could be a  a vector or data.frame}
 
-\item{rmout}{Remove outlier}
+\item{na.rm}{A logical scalar. Should missing values}
+
+\item{...}{Additional arguments}
 }
 \value{
-a data set with oultiers
+rmout
 }
 \description{
-Remove outlier.
+remove outlier
 }
 \examples{
 set.seed(12345)
 x <- rnorm(100)
 x <- c(-15, x, 15)
 y <- rmout(x)
-par(mfrow = c(1, 2))
-boxplot(x)
-boxplot(y)
 }
 \author{
 Oscar Ramirez Alan (\email{osoramirez@gmail.com}).
