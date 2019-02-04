@@ -1,6 +1,6 @@
 #'@title A standard error
 #'
-#'@param se
+#'@param se get a standard error
 #'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@description The standard error (SE) of a statistic is the standard deviation of its sampling distribution.
 #'@param x is a numeric value, could be a  a vector or data.frame

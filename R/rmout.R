@@ -1,6 +1,6 @@
 #'@title Remove outlier
 #'
-#'@param rmout
+#'@param rmout Remove outlier
 #'@description Remove outlier.
 #'@author Oscar Ramirez Alan (\email{osoramirez@@gmail.com}).
 #'@param x is a numeric value, could be a  a vector or data.frame
@@ -8,7 +8,6 @@
 #'@import stats
 #'@return a data set with oultiers
 #'@export
-
 #'@examples
 #'set.seed(12345)
 #'x <- rnorm(100)

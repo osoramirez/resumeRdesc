@@ -8,6 +8,8 @@ se(x)
 }
 \arguments{
 \item{x}{is a numeric value, could be a  a vector or data.frame}
+
+\item{se}{get a standard error}
 }
 \value{
 a data a standard error
